@@ -1,0 +1,15 @@
+INDEX VERSION 1.130+D:\micro-jan2018\micro-ws-feb2018\micro-ws-feb2018\micro-ws-feb2018\.metadata\.plugins\org.eclipse.jdt.core
+2059545164.index
+2345756690.index
+300642462.index
+4287549939.index
+2778658265.index
+2321847567.index
+274632067.index
+2379465244.index
+3331760887.index
+2582790283.index
+1948631709.index
+1894042071.index
+2929301753.index
+1775828340.index

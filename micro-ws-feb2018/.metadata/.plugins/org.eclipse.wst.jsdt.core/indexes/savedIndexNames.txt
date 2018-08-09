@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+D:\micro-oct2017\micro-ws-oct2017\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

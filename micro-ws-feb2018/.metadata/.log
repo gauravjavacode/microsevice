@@ -1,0 +1,1017 @@
+!SESSION 2018-02-11 09:38:44.385 -----------------------------------------------
+eclipse.buildId=3.9.2.201712210947-RELEASE-e47
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
+
+This is a continuation of log file D:\micro-jan2018\micro-ws-feb2018\micro-ws-feb2018\micro-ws-feb2018\.metadata\.bak_0.log
+Created Time: 2018-02-11 09:39:00.829
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-02-11 09:39:00.889
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Sivaprasad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-02-11 10:11:08.571
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-02-11 10:11:08.572
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:11:11.677
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:11:27.138
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:11:42.633
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:11:58.130
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:12:13.645
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:12:29.201
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:12:44.667
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:13:00.131
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:13:18.082
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:13:33.524
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:13:49.025
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:14:04.492
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:14:20.366
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:14:35.899
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:14:51.384
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:15:06.855
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:15:22.376
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:15:37.858
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:15:53.314
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2018-02-11 10:16:08.799
+!MESSAGE Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY Activator 4 0 2018-02-11 10:16:08.811
+!MESSAGE IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+!STACK 0
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://aetherial.cfapps.io/boot/typegraph/2.0.0.RC1
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1838)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1439)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.SimpleDownloadService.fetch(SimpleDownloadService.java:57)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.downloadFile(DownloadManager.java:143)
+	at org.springsource.ide.eclipse.commons.frameworks.core.downloadmanager.DownloadManager.doWithDownload(DownloadManager.java:194)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.createGraph(SpringBootTypeDiscovery.java:445)
+	at org.springframework.ide.eclipse.boot.completions.SpringBootTypeDiscovery.getTypes(SpringBootTypeDiscovery.java:340)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.indexing.SimpleExternalTypeIndexer.addFrom(SimpleExternalTypeIndexer.java:73)
+	at org.springsource.ide.eclipse.commons.completions.externaltype.ExternalTypeIndexManager$1.run(ExternalTypeIndexManager.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 10:17:58.769
+!MESSAGE Launch configuration BankServiceTests (1) references closed project 01javaconfig-start
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration BankServiceTests (1) references closed project 01javaconfig-start
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 10:17:58.770
+!MESSAGE Launch configuration BankServiceTests (1) references closed project 01javaconfig-start
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 10:17:58.771
+!MESSAGE Launch configuration BankServiceTests (1) references closed project 01javaconfig-start
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration BankServiceTests (1) references closed project 01javaconfig-start
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 10:17:58.771
+!MESSAGE Launch configuration BankServiceTests (1) references closed project 01javaconfig-start
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 10:17:58.775
+!MESSAGE Launch configuration BankServiceTests (1) references closed project 01javaconfig-start
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration BankServiceTests (1) references closed project 01javaconfig-start
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 10:17:58.775
+!MESSAGE Launch configuration BankServiceTests (1) references closed project 01javaconfig-start
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 10:17:58.776
+!MESSAGE Launch configuration BankServiceTests references closed project 01javaconfig-solution
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration BankServiceTests references closed project 01javaconfig-solution
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 10:17:58.776
+!MESSAGE Launch configuration BankServiceTests references closed project 01javaconfig-solution
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 10:17:58.777
+!MESSAGE Launch configuration BankServiceTests references closed project 01javaconfig-solution
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration BankServiceTests references closed project 01javaconfig-solution
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 10:17:58.777
+!MESSAGE Launch configuration BankServiceTests references closed project 01javaconfig-solution
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 10:17:58.779
+!MESSAGE Launch configuration BankServiceTests references closed project 01javaconfig-solution
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration BankServiceTests references closed project 01javaconfig-solution
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 10:17:58.779
+!MESSAGE Launch configuration BankServiceTests references closed project 01javaconfig-solution
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 10:17:58.780
+!MESSAGE Launch configuration TestDataPopulator references closed project 02-rest-basics-start
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TestDataPopulator references closed project 02-rest-basics-start
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 10:17:58.780
+!MESSAGE Launch configuration TestDataPopulator references closed project 02-rest-basics-start
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 10:17:58.781
+!MESSAGE Launch configuration TestDataPopulator references closed project 02-rest-basics-start
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TestDataPopulator references closed project 02-rest-basics-start
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 10:17:58.781
+!MESSAGE Launch configuration TestDataPopulator references closed project 02-rest-basics-start
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 10:17:58.784
+!MESSAGE Launch configuration TestDataPopulator references closed project 02-rest-basics-start
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TestDataPopulator references closed project 02-rest-basics-start
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 10:17:58.784
+!MESSAGE Launch configuration TestDataPopulator references closed project 02-rest-basics-start
+
+!ENTRY org.springframework.ide.eclipse.beans.core 4 2 2018-02-11 10:18:59.805
+!MESSAGE Problems occurred when invoking code from plug-in: "org.springframework.ide.eclipse.beans.core".
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.state(ZLjava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.cache.CacheConfigurations.getConfigurationClass(CacheConfigurations.java:55)
+	at org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheConfigurationImportSelector.selectImports(CacheAutoConfiguration.java:169)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:517)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:286)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:237)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:536)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:481)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.springframework.ide.eclipse.beans.core 2 0 2018-02-11 10:18:59.806
+!MESSAGE Error occured while running bean post processors
+!STACK 0
+java.lang.NoSuchMethodError: org.springframework.util.Assert.state(ZLjava/util/function/Supplier;)V
+	at org.springframework.boot.autoconfigure.cache.CacheConfigurations.getConfigurationClass(CacheConfigurations.java:55)
+	at org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheConfigurationImportSelector.selectImports(CacheAutoConfiguration.java:169)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:517)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:286)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:237)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:536)
+	at org.springframework.context.annotation.ConfigurationClassParser.processDeferredImportSelectors(ConfigurationClassParser.java:481)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.ide.eclipse.metadata.process.JdtConfigurationClassPostProcessor.postProcess(JdtConfigurationClassPostProcessor.java:88)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$3.run(BeansJavaConfig.java:332)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.executePostProcessor(BeansJavaConfig.java:321)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.access$5(BeansJavaConfig.java:319)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:233)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 11:06:40.173
+!MESSAGE Launch configuration Way2LearnTrader references closed project Way2learnTraderApp
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Way2LearnTrader references closed project Way2learnTraderApp
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 11:06:40.173
+!MESSAGE Launch configuration Way2LearnTrader references closed project Way2learnTraderApp
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 11:06:40.174
+!MESSAGE Launch configuration Way2LearnTrader references closed project Way2learnTraderApp
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Way2LearnTrader references closed project Way2learnTraderApp
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 11:06:40.174
+!MESSAGE Launch configuration Way2LearnTrader references closed project Way2learnTraderApp
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 11:06:40.177
+!MESSAGE Launch configuration Way2LearnTrader references closed project Way2learnTraderApp
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Way2LearnTrader references closed project Way2learnTraderApp
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 11:06:40.177
+!MESSAGE Launch configuration Way2LearnTrader references closed project Way2learnTraderApp
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 11:06:40.178
+!MESSAGE Launch configuration Eureka references closed project 02-01-eureka-server-solution
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Eureka references closed project 02-01-eureka-server-solution
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 11:06:40.178
+!MESSAGE Launch configuration Eureka references closed project 02-01-eureka-server-solution
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 11:06:40.178
+!MESSAGE Launch configuration Eureka references closed project 02-01-eureka-server-solution
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Eureka references closed project 02-01-eureka-server-solution
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 11:06:40.178
+!MESSAGE Launch configuration Eureka references closed project 02-01-eureka-server-solution
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-11 11:06:40.181
+!MESSAGE Launch configuration Eureka references closed project 02-01-eureka-server-solution
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Eureka references closed project 02-01-eureka-server-solution
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2018-02-11 11:06:40.181
+!MESSAGE Launch configuration Eureka references closed project 02-01-eureka-server-solution
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-02-11 17:36:57.997
+!MESSAGE Connection to http://dist.springsource.com/release/STS/doc/updates.xml failed on dist.springsource.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1255)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1171)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1105)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-02-11 19:49:54.620
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1255)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1171)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1105)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-02-11 19:49:54.622
+!MESSAGE Connection to http://dist.springsource.com/release/STS/doc/updates.xml failed on dist.springsource.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1255)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1171)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1105)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-02-12 02:47:10.792
+!MESSAGE Connection to http://dist.springsource.com/release/STS/doc/updates.xml failed on dist.springsource.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1255)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1171)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1105)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-02-12 02:47:10.810
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1255)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1171)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1105)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-02-12 03:56:40.843
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1255)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1171)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1105)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-02-12 03:56:40.848
+!MESSAGE Connection to http://dist.springsource.com/release/STS/doc/updates.xml failed on dist.springsource.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1255)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1171)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1105)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)

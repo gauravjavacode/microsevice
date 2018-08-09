@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
+<fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
+<fullyQualifiedTypeName name="com.way2learnonline.TestDataPopulator"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="com.way2learnonline.quotes.exception.SymbolNotFoundException"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.hystrix.EnableHystrix"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.client.loadbalancer.LoadBalanced"/>
+<fullyQualifiedTypeName name="com.way2learnonline.domain.Product"/>
+<fullyQualifiedTypeName name="com.way2learnonline.domain.Shipment"/>
+<fullyQualifiedTypeName name="com.way2learnonline.domain.Order"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.sleuth.sampler.AlwaysSampler"/>
+<fullyQualifiedTypeName name="java.util.Optional"/>
+</qualifiedTypeNameHistroy>
